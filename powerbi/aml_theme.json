@@ -1,0 +1,22 @@
+{
+  "name": "AML Compliance Dark",
+  "dataColors": [
+    "#00B4D8", "#E63946", "#2A9D8F", "#F4A261",
+    "#E9C46A", "#48CAE4", "#1B3A5C", "#264653"
+  ],
+  "background": "#0F1923",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#00B4D8",
+  "good": "#2A9D8F",
+  "bad": "#E63946",
+  "neutral": "#A8B8C8",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1A2733" } } }],
+        "border": [{ "color": { "solid": { "color": "#2D3E50" } }, "show": true }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#00000040" } } }]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# Financial AML Project
+
+# Python
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (all large raw and processed files)
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# Generated Reports
+reports/
+*.xlsx
+*.xls
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+~$*
+*.tmp
+
+# Power BI
+*.pbix.bak
+*.bak
+~*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*log.txt
+
+# Files
+PowerBI_Design_Guide.md
+Project_Detailed_Explanation.md
+Work_done_till_now.md
+run_analysis.bat
+
+
