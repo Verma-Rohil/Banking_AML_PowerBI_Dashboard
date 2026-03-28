@@ -47,25 +47,25 @@ A 4-page interactive compliance dashboard built with a **dark finance theme** fo
 
 High-level KPIs — total transactions, volume, fraud count, fraud rate, and active alerts at a glance.
 
-![Executive Overview](screenshots/01_executive_overview.png)
+![Executive Overview](docs/screenshots/01_executive_overview.png)
 
 ### Page 2: Alert Triage
 
 Compliance analysts use this page to filter, prioritize, and investigate flagged alerts by severity, type, and detection method.
 
-![Alert Triage](screenshots/02_alert_triage.png)
+![Alert Triage](docs/screenshots/02_alert_triage.png)
 
 ### Page 3: Customer 360 (Drill-Through)
 
 Drill-through page showing a specific customer's risk profile, transaction history, and fraud indicators.
 
-![Customer 360](screenshots/03_customer_360.png)
+![Customer 360](docs/screenshots/03_customer_360.png)
 
 ### Page 4: Monitoring Trends & Patterns
 
 Temporal analysis with fraud heatmaps, daily transaction breakdowns, risk tier distribution, and anomaly detection scatter plots.
 
-![Monitoring Trends](screenshots/04_monitoring_trends.png)
+![Monitoring Trends](docs/screenshots/04_monitoring_trends.png)
 
 ---
 
