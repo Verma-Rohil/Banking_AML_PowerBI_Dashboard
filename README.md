@@ -84,3 +84,12 @@ A deep-dive profile of specific customers, showing their risk tier, history, and
 Temporal breakdown showing fraud concentration by time-of-day, identifying high-risk windows.
 
 ![Monitoring Trends](docs/screenshots/04_monitoring_trends.png)
+
+## Key Observations
+
+Throughout the development and analysis phases of this project, several critical patterns emerged regarding fraudulent financial behavior:
+
+1. **Transaction Type Concentration:** The vast majority of illicit activities (money laundering and fraud) within the dataset are heavily concentrated in just two transaction types: `TRANSFER` and `CASH_OUT`. Standard payments and low-value transfers show minimal anomalous behavior.
+2. **The "Pass-Through" Pattern:** A common laundering technique observed is the immediate cash-out following a large transfer. Malicious actors typically move funds into an account and almost instantly withdraw them to minimize traceability, a pattern our rolling-window anomaly detection effectively catches.
+3. **Temporal Anomalies:** Time-series analysis reveals that high-risk transactions frequently occur outside of standard business hours or in sudden, unpredictable spikes that deviate significantly from a customer's established baseline behavior.
+4. **Efficiency of Risk Scoring over Static Rules:** By implementing a statistical, multi-factor risk scoring engine rather than rigid rules (e.g., "flag every transaction > $10,000"), the system successfully identified sophisticated structured transactions (smurfing) while significantly reducing the false-positive rate that plagues traditional compliance queues.
